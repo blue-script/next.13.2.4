@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 
 const NotFound: NextPage = () => {
-  return <Layout>
+  return <Layout title={'not found'}>
     <Head>
       <title>Not found</title>
     </Head>
